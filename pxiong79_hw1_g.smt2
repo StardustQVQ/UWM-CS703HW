@@ -47,32 +47,32 @@
 ;-----------------------------------------------------------
 ; Edge Constraints
 
-; Edge between vertex 0 and vertex 1
+; Edge （0，1）
 (assert (not (and p00 p10)))
 (assert (not (and p01 p11)))
 (assert (not (and p02 p12)))
 
-; Edge between vertex 0 and vertex 2
+; Edge （0，2）
 (assert (not (and p00 p20)))
 (assert (not (and p01 p21)))
 (assert (not (and p02 p22)))
 
-; Edge between vertex 0 and vertex 3
+; Edge （0，3）
 (assert (not (and p00 p30)))
 (assert (not (and p01 p31)))
 (assert (not (and p02 p32)))
 
-; Edge between vertex 1 and vertex 2
+; Edge （1，2）
 (assert (not (and p10 p20)))
 (assert (not (and p11 p21)))
 (assert (not (and p12 p22)))
 
-; Edge between vertex 1 and vertex 3
+; Edge （1，3）
 (assert (not (and p10 p30)))
 (assert (not (and p11 p31)))
 (assert (not (and p12 p32)))
 
-; Edge between vertex 2 and vertex 3
+; Edge （2，3）
 (assert (not (and p20 p30)))
 (assert (not (and p21 p31)))
 (assert (not (and p22 p32)))
