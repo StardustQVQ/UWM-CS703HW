@@ -46,8 +46,6 @@
 
 ;-----------------------------------------------------------
 ; Edge Constraints
-; For K_{2,2} with top vertices {0,1} and bottom vertices {2,3},
-; add constraints for each edge from a top vertex to a bottom vertex.
 
 ; Edge between vertex 0 and vertex 1
 (assert (not (and p00 p10)))
